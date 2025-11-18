@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Tuis</string>
+    <string name="title_dashboard">Paneelbord</string>
+    <string name="title_notifications">Kennisgewings</string>
+    <string name="default_web_client_id">41764673225-r9ffpgee76aqv9vmvau1bkot35jjt1p6.apps.googleusercontent.com</string>
+    <string name="biometric_title">Ontsluit InnerSpace</string>
+    <string name="biometric_subtitle">Gebruik vingerafdruk of gesig om voort te gaan</string>
+    <string name="biometric_cancel">Kanselleer</string>
+    <string name="biometric_failed">Verifikasie het misluk</string>
+    <string name="app_name">InnerSpace</string>
+    <string name="welcome_text">Welkom terug, InnerSpace verkenner </string>
+    <string name="quote_text">Laai aanhaling...</string>
+    <string name="quote_author">Onbekend</string>
+    <string name="recent_entries">Onlangse inskrywings</string>
+    <string name="settings_theme_label">Tema</string>
+    <string name="settings_dark_mode">Donker modus</string>
+    <string name="settings_font_size_label">Lettergrootte</string>
+    <string name="settings_language_label">Taal</string>
+    <string name="settings_notifications_label">Daaglikse kennisgewings</string>
+    <string name="settings_enable_notifications">Skakel kennisgewings aan</string>
+    <string name="nav_home">Tuis</string>
+    <string name="nav_journal">Joernaal</string>
+    <string name="nav_settings">Instellings</string>
+    <string name="entry_title_hint">Titel</string>
+    <string name="entry_content_hint">Skryf jou gedagtes neer...</string>
+    <string name="entry_image_description">Aangehegte beeld</string>
+    <string name="entry_attach_image">Heg beeld aan</string>
+    <string name="entry_save_button">Stoor inskrywing</string>
+    <string name="home_loading_quote">Laai aanhaling...</string>
+    <string name="settings_title">Instellings</string>
+    <string name="settings_theme_desc">Skakel tussen lig en donker temas.</string>
+    <string name="settings_notifications_desc">Kry sagte herinnerings om te joernaal en sien jou daaglikse aanhaling.</string>
+</resources>

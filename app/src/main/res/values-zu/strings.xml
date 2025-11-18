@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_home">Ikhaya</string>
+    <string name="title_dashboard">Ideshibhodi</string>
+    <string name="title_notifications">Izaziso</string>
+    <string name="default_web_client_id">41764673225-r9ffpgee76aqv9vmvau1bkot35jjt1p6.apps.googleusercontent.com</string>
+    <string name="biometric_title">Vula i-InnerSpace</string>
+    <string name="biometric_subtitle">Sebenzisa uzipho noma ubuso ukuqhubeka</string>
+    <string name="biometric_cancel">Khansela</string>
+    <string name="biometric_failed">Ukuqinisekiswa kwehlulekile</string>
+    <string name="app_name">InnerSpace</string>
+    <string name="welcome_text">Siyakwamukela futhi, umhloli we-InnerSpace </string>
+    <string name="quote_text">Ilayisha isisho...</string>
+    <string name="quote_author">Engaziwa</string>
+    <string name="recent_entries">Okokufaka kwakamuva</string>
+    <string name="settings_theme_label">Itimu</string>
+    <string name="settings_dark_mode">Imodi emnyama</string>
+    <string name="settings_font_size_label">Usayizi wonhlamvu</string>
+    <string name="settings_language_label">Ulimi</string>
+    <string name="settings_notifications_label">Izaziso zansuku zonke</string>
+    <string name="settings_enable_notifications">Vula izaziso</string>
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_journal">Ijenali</string>
+    <string name="nav_settings">Izilungiselelo</string>
+    <string name="entry_title_hint">Isihloko</string>
+    <string name="entry_content_hint">Bhala imicabango yakho...</string>
+    <string name="entry_image_description">Isithombe esinamathiselwe</string>
+    <string name="entry_attach_image">Namathisela isithombe</string>
+    <string name="entry_save_button">Gcina okokufaka</string>
+    <string name="home_loading_quote">Ilayisha isisho...</string>
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="settings_theme_desc">Shintsha phakathi kwetimu ekhanyayo ne emnyama.</string>
+    <string name="settings_notifications_desc">Thola izikhumbuzo ezithambile zokubhalela idayari nokubona isisho sosuku.</string>
+
+</resources>

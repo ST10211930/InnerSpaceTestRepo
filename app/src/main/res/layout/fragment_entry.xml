@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:id="@+id/entryScroll"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="96dp"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/titleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/entry_title_hint"
+                android:textSize="18sp"
+                android:textColor="@color/primaryText"
+                android:textColorHint="@color/secondaryText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Content Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="@string/entry_content_hint"
+                android:gravity="top"
+                android:textSize="16sp"
+                android:textColor="@color/primaryText"
+                android:textColorHint="@color/secondaryText"
+                android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Image Preview Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <ImageView
+                android:id="@+id/imagePreview"
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:contentDescription="@string/entry_image_description"
+                android:scaleType="centerCrop" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Attach Image Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/attachImageButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_attach_image"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/secondaryText"
+            app:cornerRadius="24dp"
+            app:strokeColor="@color/primaryAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fontStyleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customize Font"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="24dp"
+            android:textColor="@color/secondaryText"
+            app:strokeColor="@color/primaryAccent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/wallpaperButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Wallpaper"
+            android:layout_marginTop="8dp"
+            app:cornerRadius="24dp"
+            android:textColor="@color/secondaryText"
+            app:strokeColor="@color/primaryAccent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <!-- Save Entry Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveButton"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_save_button"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/primaryAccent"
+            android:textColor="@color/secondaryText"
+            app:cornerRadius="24dp" />
+
+    </LinearLayout>
+</ScrollView>

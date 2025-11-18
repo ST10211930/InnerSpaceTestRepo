@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:contentDescription="Navigate to Home" />
+
+    <item
+        android:id="@+id/entryFragment"
+        android:icon="@drawable/ic_journal"
+        android:title="Journal"
+        android:contentDescription="Create or view journal entries" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        android:contentDescription="Adjust app preferences" />
+</menu>

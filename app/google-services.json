@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "41764673225",
+    "project_id": "innerspace-fa73c",
+    "storage_bucket": "innerspace-fa73c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41764673225:android:2a75cf33c4db65ed6f9f18",
+        "android_client_info": {
+          "package_name": "student.projects.innerspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41764673225-r9ffpgee76aqv9vmvau1bkot35jjt1p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZDOHPR9hsgJ3yP2bg4W1DujDwMefQhFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41764673225-r9ffpgee76aqv9vmvau1bkot35jjt1p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
