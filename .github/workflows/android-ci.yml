@@ -33,6 +33,3 @@ jobs:
         run: ./gradlew clean test assembleDebug --stacktrace
 
 
-
-Scroll down and click Commit changes (on master).
-
